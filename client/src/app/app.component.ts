@@ -11,7 +11,7 @@ export class AppComponent implements OnInit {
   users: any;
 
   constructor(private http: HttpClient) { }
-  ngOnInit() {
+     ngOnInit() {
      this.getUsers();
   }
 
@@ -21,9 +21,5 @@ export class AppComponent implements OnInit {
       error: error => console.log(error)
     })
   }
-
-clicket(){
-  var test = "";
-}
 
 }
